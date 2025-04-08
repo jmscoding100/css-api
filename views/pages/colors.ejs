@@ -1,0 +1,27 @@
+<%- include('../partials/header') %>
+
+
+
+<main class="main" id="colorMain">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
+            <% data.forEach(color => {%>
+                <div class="col">
+                    <div class="card h-100 color-card" style="background-color: <%= color.hex %>">
+                        <!-- place color here  -->
+                        <div class="card-body">
+                            <p class="card-text">
+                                <%= color.name %> 
+                            </p>
+                            <p class="card-text">
+                                <%= color.hex %>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+    </div>
+</main>
+
+<%- include('../partials/footer') %>

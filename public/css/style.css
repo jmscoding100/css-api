@@ -1,0 +1,22 @@
+*{box-sizing: border-box;}
+
+
+body{
+    background-image: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGc2bW1icGN1dDgzMGFnZ21hZ3ZvaHp6d3RjeGU2cmt2dXc5OHIzYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UySAHviCpoGp5uNwJK/giphy.gif');
+
+    background-size: cover;
+}
+
+
+#lookId{
+    color: #ffffffe2;
+}
+
+#lookId:hover{
+    color: purple;
+}
+
+
+#colorMain{
+    background-color: white;
+}
